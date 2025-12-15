@@ -1,3 +1,3 @@
 # Mini-Projet Cinéma
 
-Initialisation du projet.
+Serveur HTTP.

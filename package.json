@@ -1,0 +1,6 @@
+{
+  "name": "cinema",
+  "scripts": {
+    "start": "npx serve ."
+  }
+}
