@@ -1,0 +1,299 @@
+/* ***** buttons ***** */
+.btn {
+    padding: 5px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.btn img {
+    justify-content: center;
+    align-content: center;
+    height: 2em;
+}
+
+/* ***** flex classes ***** */
+
+.flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1em;
+
+    /* border: 2px dashed red; */
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1em;
+
+    /* border: 2px dashed blue; */
+}
+
+.flex-grow {
+    flex: 1;
+}
+
+.flex-center {
+    align-items: center;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.flex-self-center {
+    align-self: center;
+}
+
+.max-width {
+    width: 100%;
+}
+
+/* ***** page ***** */
+
+html {
+    background-color: #eee;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ***** main ***** */
+
+.viewport {
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+    padding-top: 160px;
+}
+
+/* ***** header ***** */
+
+header {
+    height: 110px;
+    padding: 1em;
+    color: #333;
+    background-color: floralwhite;
+    border-bottom: solid 2px burlywood;
+}
+
+.logo {
+    margin: 0em 1em 0em 1em;
+}
+
+.logo img {
+    width: 10em;
+}
+
+.title {
+    align-content: center;
+    flex: 1;
+    font-size: 2.5em;
+    padding: 10px;
+}
+
+.btn-header {
+    margin-top: 1.5em;
+    background-color: darkorange;
+}
+
+.btn-catalog {
+    margin-top: 1.5em;
+    background-color: cadetblue;
+}
+
+/* ***** footer ***** */
+
+footer {
+    padding: 1em;
+    align-content: center;
+
+    background-color: #333;
+    border-top: solid 2px burlywood;
+}
+
+.logo-footer img {
+    width: 3em;
+}
+
+.link-footer ul {
+    margin-top: 0px;
+    list-style: none;
+}
+
+.link-footer a {
+    font-size: smaller;
+    color: white;
+    text-decoration: none;
+}
+
+/* ***** content ***** */
+
+.articles {
+    flex: 1;
+}
+
+.article {
+    flex: 1;
+    padding: 1em;
+}
+
+.article p {
+    margin-top: 1em;
+    text-align: justify;
+}
+
+/*****/
+
+.produits {
+    flex: 1;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.produit {
+    width: 200px;
+    padding: 1em;
+    border: 3px solid black;
+    border-radius: 10px;
+
+    background-color: white;
+}
+
+.produit img {
+    width: 100%;
+}
+
+.produit-logo {
+    flex: 1;
+}
+
+.produit-title {
+    font-weight: bold;
+    /* text-align: justify; */
+}
+
+.produit-price {
+    font-size: larger;
+}
+
+/*****/
+
+.categories {
+    gap: 5px;
+}
+
+.categories a {
+    color: black;
+    text-decoration: none;
+}
+.category {
+    padding: 0.5em 1em;
+    background-color: orange;
+    border-radius: 16px;
+}
+
+.category-selected {
+    padding: 0.5em 1em;
+    color: white;
+    background-color: cadetblue;
+    border-radius: 16px;
+}
+
+.category-spacer {
+    padding: 0.5em 0;
+}
+
+/*****/
+
+.produits-panier {
+    flex: 1;
+    justify-content: center;
+    align-items: stretch;
+    gap: 0px;
+
+    /* border: 1px dashed red; */
+}
+
+.produit-panier {
+    padding: 0.5em 1em;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.produit-panier-impair {
+    background-color: #ccc;
+}
+
+.produit-panier-logo {
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.produit-panier-logo img {
+    width: 80px;
+}
+
+.produit-panier-title {
+    flex: 1;
+    font-weight: bold;
+    /* text-align: justify; */
+}
+
+.produit-panier-qty {
+    width: 4em;
+    text-align: center;
+}
+
+.produit-panier-qty input {
+    width: 50px;
+    height: 40px;
+}
+
+.produit-panier-price {
+    width: 4em;
+    text-align: center;
+    font-size: larger;
+}
+
+.total-panier {
+    padding: 0.5em 1em;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-self: stretch;
+
+    /* border: 1px dashed red; */
+}
+
+.total-panier-price {
+    width: 4em;
+    text-align: center;
+    font-size: larger;
+}
+
+/*****/
+
+.mention {
+    flex: 1;
+    padding: 1em;
+}
+
+.mention a {
+    font-weight: bold;
+    text-decoration: none;
+    color: orange;
+}
+
