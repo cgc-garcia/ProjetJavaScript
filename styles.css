@@ -1,0 +1,58 @@
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#loadMore {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Styles additionnels légers pour apparence */
+body {
+  font-family: Segoe UI, Roboto, Arial, sans-serif;
+  margin: 18px;
+  color: #111;
+}
+h1 {
+  margin: 0;
+}
+
+.search-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+#searchInput {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  min-width: 250px;
+}
+
+a.details-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #0b78b6;
+  text-decoration: none;
+  font-weight: 600;
+}
