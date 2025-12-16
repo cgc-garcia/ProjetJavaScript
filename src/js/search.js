@@ -1,5 +1,4 @@
 
-import { searchMovies } from './api.js';
 let page=1, query='';
 const input=document.getElementById('search');
 const results=document.getElementById('results');

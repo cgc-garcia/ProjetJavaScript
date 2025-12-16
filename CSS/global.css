@@ -9,7 +9,7 @@ body {
 html {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #000;
+    color: #ffffff;
 }
 
 body {
@@ -17,14 +17,12 @@ body {
     min-height: 100vh;
 }
 
-/* ***** */
-
-header {
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: -webkit-fill-available;
-    height: inherit;
+main{
+    color: #ffffff;
+    background: #111;
+    flex: 1;
+    justify-content: center;
+    align-items: stretch;
 }
 
 /*******/
@@ -49,4 +47,51 @@ input[type="number"]::-webkit-inner-spin-button {
     top: 0;
     right: 0;
     height: 100%;
+}
+
+/* ***** flex classes ***** */
+
+.flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1em;
+
+    /* border: 2px dashed red; */
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1em;
+
+    /* border: 2px dashed blue; */
+}
+
+.flex-grow {
+    flex: 1;
+}
+
+.flex-center {
+    align-items: center;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.flex-self-center {
+    align-self: center;
+}
+
+.max-width {
+    width: 100%;
 }
