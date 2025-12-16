@@ -1,5 +1,5 @@
 
-# Mini-Projet Cinéma 🎬
+# Mini-Projet Cinéma
 
 Application web utilisant l'API OMDb.
 
@@ -21,4 +21,4 @@ export const API_KEY = "VOTRE_API_KEY";
 ```
 
 ## Dépôt Git
-Lien à renseigner ici.
+https://github.com/cgc-garcia/ProjetJavaScript
